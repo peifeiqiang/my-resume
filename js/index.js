@@ -5,7 +5,7 @@
 FastClick.attach(document.body);
 ~function () {
     var winW = document.documentElement.clientWidth;
-    document.documentElement.style.fontSize = winW / 640 * 100 + "px";
+    document.documentElement.style.fontSize = winW /750 * 100 + "px";
 }();
 
 //->初始化Swiper
