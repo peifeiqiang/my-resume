@@ -400,7 +400,7 @@ position: absolute;
     height:1.5rem;
 }
 .img3>div:nth-child(3){
-    top: 10rem;
+    top: 9.5rem;
     right:0;
     width:2rem;
     height:2rem;
@@ -412,7 +412,7 @@ position: absolute;
     height:2rem;
 }
 .img3>div:nth-child(4){
-    top: 10rem;
+    top: 9rem;
     left: 0.5rem;
     width:1.5rem;
     height:1.8rem;
@@ -800,7 +800,7 @@ position: absolute;
 
 }
 .img5>div:nth-child(2){
-    top: 9.63rem;
+    top: 8.8rem;
     left: 0;
     width: 4rem;
     height: 2rem;
@@ -824,7 +824,7 @@ position: absolute;
 }
 
 .img5>div:nth-child(4){
-    top: 9.6rem;
+    top: 9rem;
     right: .1rem;
     width: 2rem;
     height:2rem;
