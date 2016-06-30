@@ -2,14 +2,16 @@
  * Created by Administrator on 2016/6/26.
  */
 //->解决click的300ms延迟
+
 FastClick.attach(document.body);
 ~function () {
     var winW = document.documentElement.clientWidth;
     if(winW>750){
         document.documentElement.style.fontSize = winW /850 * 100 + "px";
-        return
+
+    }else{
+        document.documentElement.style.fontSize = winW /750 * 100 + "px";
     }
-    document.documentElement.style.fontSize = winW /750 * 100 + "px";
 }();
 
 //->初始化Swiper
