@@ -53,7 +53,7 @@ html,body, .swiper-container, .swiper-slide{
     position: fixed;
     width: 1rem;
     height: 1rem;
-    top: 11rem;
+    top: 10rem;
     left: 3.2rem;
     z-index: 1000;
     opacity: 0;
