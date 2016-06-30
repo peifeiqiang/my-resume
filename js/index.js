@@ -5,6 +5,10 @@
 FastClick.attach(document.body);
 ~function () {
     var winW = document.documentElement.clientWidth;
+    if(winW>750){
+        document.documentElement.style.fontSize = winW /850 * 100 + "px";
+        return
+    }
     document.documentElement.style.fontSize = winW /750 * 100 + "px";
 }();
 
